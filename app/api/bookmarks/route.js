@@ -1,6 +1,6 @@
 import connectDB from "@/config/database";
-import User from "@/models/user";
-import Property from "@/models/property";
+import User from "@/models/User";
+import Property from "@/models/Property";
 import { getSessionUser } from "@/utils/getSessionUser";
 
 export const dynamic = "force-dynamic";
